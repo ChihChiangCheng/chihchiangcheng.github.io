@@ -1,0 +1,101 @@
+﻿body {
+	background-color: #CDE2B0;#BBEEBB;
+	text-align: center;
+	font-family: Microsoft YaHei UI;
+	font-size: 18px;
+}
+
+a {
+	font-size: 0.65em;
+	color: #E2433A;#E21083;#069;
+	text-decoration: none;
+}
+
+.header {
+	margin: 2em auto;
+	padding: 0;
+}
+
+.header table {
+	background-color: #37A586;teal;
+	margin: 0 auto;
+	width: 65%;
+}
+
+.header table td {
+	height: 30px;
+}
+
+#s0, #s1, #s2 td {
+	width: 20%;
+}
+
+#header a {
+	font-family: 华文新魏;
+	font-size: 1.5em;
+	color: #FFF;white;
+}
+
+#s1 a {
+	font-size: 0.7em;
+	color: yellow;
+}
+
+#s2 a {
+	font-size: 0.7em;
+	color: #74EAF1;orange;
+}
+
+.tablebody {
+	margin: 3.5em auto;
+	padding: 0;
+}
+
+.tablebody table {
+	margin: 0 auto;
+	width: 63%;
+	border: none;
+	border-collapse: separate;
+	border-spacing: 0.4em 0.3em;
+	/*border-top: 1px solid red;*/
+	/*border-bottom: 1px solid teal;*/
+}
+
+.tablebody table th {
+	width: 9%;
+	height: 42px;
+	border-radius: 5px;
+}
+
+.tablebody table td {
+	width: 9%;
+	height: 32px;
+	border-radius: 5px;
+}
+
+.tablebody th a {
+	font-size: 0.9em;
+	color: #196FDE;red;
+}
+
+.tablebody td a {
+	font-size: 0.65em;
+}
+
+.tablebody tr:nth-of-type(odd) {
+	background-color: #BBD09E;#AEB;#BEB;
+}
+.tablebody tr:nth-of-type(even) {
+	background-color: #CCD093;#AEA;
+}
+
+.info-th {
+	background-color: #CCC033;
+}
+
+/*.r1, .r2, .r3, .r4, .r5, .r6, .r7 td {width: 14.2857%;}*/
+
+.footer a {
+	font-size: 1.25em;
+	color: #039;
+}
